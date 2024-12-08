@@ -95,7 +95,7 @@ export default function Navigation() {
 
 
             {/* logo */}
-                <div className="flex gap-40 w[1920] h[84] bg-gray-100 pt-1 pb-1 items-center justify-around">
+                <div className="flex gap-20 md:gap-40 w[1920] h[84] bg-gray-100 pt-1 pb-1 items-center justify-around">
                     <div className="py-4 opacity-70 mx-10 md:mx-0">
                         <Image src="/logo.png" alt="logo" width={166} height={40}/>
                     </div>
