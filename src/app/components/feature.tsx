@@ -79,7 +79,7 @@ export default function Navigation() {
         >
           <CarouselContent>
             {Array.from({ length: 7 }).map((_, index) => (
-              <CarouselItem key={index} className="basis-1/2 sm:basis-1/2 md:basis-1/3 lg:basis-1/4">
+              <CarouselItem key={index} className="basis-1/1 sm:basis-1/2 md:basis-1/3 lg:basis-1/4">
                 <div className="p-1">
                   <Card>
                     <CardContent className="flex p-1 bg-transparent border-none">

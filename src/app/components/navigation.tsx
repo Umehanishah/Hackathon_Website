@@ -96,13 +96,14 @@ export default function Navigation() {
 
             {/* logo */}
                 <div className="flex gap-40 w[1920] h[84] bg-gray-100 pt-1 pb-1 items-center justify-around">
-                    <div className="py-4 opacity-70">
-                        <Image src="/logo.png" alt="logo" width={166} height={40} className="px-10 md:px-0"/>
+                    <div className="py-4 opacity-70 mx-10 md:mx-0">
+                        <Image src="/logo.png" alt="logo" width={166} height={40}/>
                     </div>
 
                     <div className="flex gap-2 bg-gray-50 px-5 py-2 rounded-md">
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" className="lucide lucide-shopping-cart"><circle cx="8" cy="21" r="1"/><circle cx="19" cy="21" r="1"/><path d="M2.05 2.05h2l2.66 12.42a2 2 0 0 0 2 1.58h9.78a2 2 0 0 0 1.95-1.57l1.65-7.43H5.12"/></svg>
-                    <p className="pt-2 lg:pt-0 text-xs lg:text-base">Cart</p>
+                    <p className="pt-2 lg:pt-0 text-xs lg:text-base">
+                        <Link href="/cart">Cart</Link></p>
                     <p className="bg-teal-600 rounded-full px-2 text-white">2</p>
                     </div>
                 </div>

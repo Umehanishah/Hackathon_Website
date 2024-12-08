@@ -60,7 +60,7 @@ export default function Contact() {
                     <div>
                         <h2 className="text-xl font-bold pt-20">Our Popular Products</h2>
 
-                        <div className="flex gap-5 pt-5">
+                        <div className="md:flex gap-5 pt-5">
                             <div>
                             <Image src="/img-13.png" alt="img" width={500} height={200}/>
                             <p className="pt-5 text-gray-500 text-xs">The Popular sueda sofa
